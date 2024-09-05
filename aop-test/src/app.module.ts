@@ -18,8 +18,6 @@ import { LoginGuard } from './login.guard';
 })
 export class AppModule implements NestModule {
   configure(consumer: MiddlewareConsumer) {
-    
-
     consumer.apply(LogMiddleware).forRoutes('aaa*');
   }
 }
