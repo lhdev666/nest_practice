@@ -1,2 +1,1 @@
-# nest_practice
-nestjs practice
+nestjs 基础练习
